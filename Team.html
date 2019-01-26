@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Employee Data Management</title>
+	<link rel="stylesheet" href="">
+	<style>
+	.wrapper{
+		display: flex;
+		flex-direction: row;
+	}
+	#section{
+	}
+	.wrapper div{
+		margin: 5px;
+		text-align: center;
+	}
+
+	</style>
+</head>
+	<body>
+		<h1>Team for insurance Company</h1>
+		<div class ="wrapper">	
+		<div id="ids"></div>
+		<div id ="firstname"></div>
+		
+
+	<script src="data.json"></script>
+
+	<script>
+		
+		for (i = 0; i < teamMembers.length; i++){
+         
+		var eldisplay = teamMembers[i];
+
+		document.getElementById("ids").innerHTML += eldisplay.name + "<br>" + "<hr>";
+		
+		document.getElementById("firstname").innerHTML += eldisplay.email + "<br>" + "<hr>";
+
+		
+		
+		
+	}
+	</script>
+	</body>
+</html>

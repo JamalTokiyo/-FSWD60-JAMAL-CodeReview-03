@@ -1,0 +1,5 @@
+var teamMembers = [{"name":"Fran", 
+"email":"fran@index.com"},
+{"name":"Bill","email":"bill@index.com"},
+{"name":"Fritz", "email":"fritz@index.com"}
+];
