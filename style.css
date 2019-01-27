@@ -67,7 +67,7 @@ li a:hover {
 	padding-left: 10px;
 	font-size: 3em;
 }
-.test{
+.wrapp{
 	border: 2px solid #767676;
 	width: 1000px;
 	height: 800px;
@@ -87,20 +87,22 @@ li a:hover {
   flex-wrap: wrap;
 }
 #form select{
-  flex-basis: 40%;
-  height: 50px;
-  margin: 20px 0 0 0;
+  flex-basis: 30%;
+  height: 40px;
+  margin: 30px ;
 
 }
 #form input{
   flex-basis: 30%;
-  height: 20px 90px;
+  height: 40px;
   margin: 5px 10px 30px;
   border: 1px solid #767676;
   padding-left: 25px;
   font-size: 1em;
 }
-
+#result{
+  margin-top: 100px
+}
 
 
 
